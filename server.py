@@ -14,7 +14,7 @@ def createConfig(path):
     config.add_section(section)
     config.set(section, "port", "8080")
     config.set(section, "tv_path", "C:\\Program Files\\TightVNC\\tvnviewer.exe")
-    config.set(section, "pass", "sesamsesam")
+    config.set(section, "pass", "vncpass")
 
     with open(path, "w") as config_file:
         config.write(config_file)
